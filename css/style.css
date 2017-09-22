@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.main-page .header nav {
+  height: 50px;
+  position: relative;
+  background: gray; }
+  .main-page .header nav ul {
+    list-style: none; }
+    .main-page .header nav ul li {
+      margin-right: 20px;
+      float: left; }
+      .main-page .header nav ul li a {
+        text-decoration: none; }
+      .main-page .header nav ul li:hover .menu {
+        display: block; }
+      .main-page .header nav ul li .menu {
+        position: absolute;
+        left: 100px;
+        top: 50px;
+        width: 700px;
+        min-height: 100px;
+        background-color: yellow;
+        display: none; }
+        .main-page .header nav ul li .menu li {
+          display: inline;
+          width: 150px; }
+          .main-page .header nav ul li .menu li a {
+            color: red;
+            font-size: 20px;
+            border-bottom: 1px solid black; }
+          .main-page .header nav ul li .menu li ul li {
+            display: block; }
+            .main-page .header nav ul li .menu li ul li a {
+              color: black;
+              font-size: 16px;
+              border: none; }
+.main-page .category {
+  height: 300px;
+  background-color: yellowgreen; }
+
+/*# sourceMappingURL=style.css.map */
