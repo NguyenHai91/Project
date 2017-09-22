@@ -1,68 +1,41 @@
-
-
-
-
-
-*{
-    margin : 0;
-    padding: 0;
-}
-.main-page{
-    .header{
-        nav{
-            height    : 50px;
-            position  : relative;
-            background: gray;
-            ul{
-                list-style: none;
-                li{
-                    margin-right: 20px;
-                    float       : left;
-                    a{
-                        text-decoration: none;
-                        
+@media(min-width: 981px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    $width-page: 980px;
+    $width: 6.25%;
+    @for $i from 1 through 16 {
+        .col-lg-#{$i} {
+            width: $width*$i;
+        }
+    }
+    [class^='col-'] {
+        float: left;
+    }
+    .row {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .navigation {
+        height: 50px;
+        ul {
+            position: relative;
+            li {
+                display: inline;
+                a {
+                    &:hover .menu {
+                        display: block;
                     }
-                    &:hover {
-                        .menu{
-                            display: block;
-                        }
-                    }
-                    .menu{
-                        position        : absolute;
-                        left            : 100px;
-                        top             : 50px;
-                        width           : 700px;
-                        min-height      : 100px;
-                        background-color: yellow;
-                        display         : none;
-                        li{
-                            display: inline;
-                            width  : 150px;
-                            a{
-                                color        : red;
-                                font-size    : 20px;
-                                border-bottom: 1px solid black;
-                            }
-                            ul{
-                                li{
-                                    display: block;
-                                    a{
-                                        color    : black;
-                                        font-size: 16px;
-                                        border   : none;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                }
+                .menu {
+                    position: absolute;
+                    top: 50px;
+                    left: 20px;
+                    display: none;
                 }
             }
         }
-        
-        
-    }
-    .category{
-        height          : 300px;
-        background-color: yellowgreen;
     }
 }
