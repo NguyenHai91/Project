@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-lg-16">
+            <nav class="navigation">
+                <div class="wrap-nav">
+                    <ul>
+                        <li>Home</li>
+                        <li>
+                            <a href="">Men</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="">Ao nam</a>
+                                    <ul>
+                                        <li><a href="">Ao khoac</a></li>
+                                        <li>
+                                            <a href=""></a>
+                                        </li>
+                                        <li>
+                                            <a href=""></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Quan nam</a>
+                                    <ul>
+                                        <li><a href="">Quan tay</a></li>
+                                        <li><a href="">Quan jean</a></li>
+                                        <li><a href="">Quan dui</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">T-shirt</a>
+
+                                </li>
+                                <li>
+                                    <a href="">So-mi</a>
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Women</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="">Ao nam</a>
+                                    <ul>
+                                        <li><a href="">Ao khoac</a></li>
+                                        <li>
+                                            <a href=""></a>
+                                        </li>
+                                        <li>
+                                            <a href=""></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Quan nam</a>
+                                    <ul>
+                                        <li><a href="">Quan tay</a></li>
+                                        <li><a href="">Quan jean</a></li>
+                                        <li><a href="">Quan dui</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">T-shirt</a>
+
+                                </li>
+                                <li>
+                                    <a href="">So-mi</a>
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">New Products</a>
+                        </li>
+                        <li>
+                            <a href="">Hot Sales</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="main-page">
+        <div class="row">
+            <div class="col-lg-16">
+                
+                <section id="best-seller" class="box-category">
+                    <div class="title-category">
+                        <h2 class="">Best Seller</h2>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-5.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-6.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-7.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="left-box">
+            <div class="service box">SERVICE
+                <a href="">Online Help</a>
+                <a href="">Contact Us</a>
+                <a href="">Order Status</a>
+                <a href="">Change Location</a>
+                <a href="">FAQ’s</a>
+            </div>
+            <div class="policies box">POLICIES</div>
+            <div class="about box">ABOUT</div>
+        </div>
+        <div class="right-box">
+            <div>CONTACT</div>
+        </div>
+    </footer>
+</body>
+
+</html>
