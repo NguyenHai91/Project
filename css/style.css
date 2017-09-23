@@ -63,12 +63,15 @@
     margin: 0 auto; }
 
   .navigation {
-    height: 50px; }
+    height: 50px;
+    background-color: black; }
     .navigation .wrap-nav {
       width: 1200px;
       margin: 0 auto; }
       .navigation .wrap-nav ul {
-        position: relative; }
+        position: relative;
+        float: left;
+        list-style: none; }
         .navigation .wrap-nav ul li {
           display: inline;
           font-size: 22px;
@@ -100,6 +103,20 @@
                   text-decoration: none;
                   font-size: 16px;
                   color: gray; }
+      .navigation .wrap-nav .search-box input {
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+        margin: 0px; }
+      .navigation .wrap-nav .search-box button {
+        width: 70px;
+        height: 30px;
+        margin: 0px; }
+      .navigation .wrap-nav .account {
+        float: right; }
+        .navigation .wrap-nav .account a {
+          color: white;
+          margin-left: 10px; }
 
   #header {
     height: 500px;

@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <div class="row">
         <div class="col-lg-16">
             <nav class="navigation">
@@ -91,6 +92,15 @@
                             <a href="bestseller.php">Best Seller</a>
                         </li>
                     </ul>
+                    <div class="search-box">
+                        <input type="text" >
+                        <button class="">Search</button>
+                    </div>
+                    <div class="account">
+                        <a href="">Cart</a>
+                        <a href="">Login</a>
+                        <a href="">Sign Up</a>
+                    </div>
                 </div>
 
             </nav>
