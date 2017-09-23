@@ -94,6 +94,50 @@
             </nav>
         </div>
     </div>
+    <header id="header">
+        <div class="wrap-header">
+            <ul>
+                <li>
+                    <div class="item">
+                        <div class="detail">
+                            <p class="head">E-SHOPPER</p>
+                            <p class="title">Free Ecommerce Template</p>
+                            <p class="paraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/slide-1.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <div class="detail">
+                            <p class="head">E-SHOPPER</p>
+                            <p class="title">Free Ecommerce Template</p>
+                            <p class="paraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/slide-2.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <div class="detail">
+                            <p class="head">E-SHOPPER</p>
+                            <p class="title">Free Ecommerce Template</p>
+                            <p class="paraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/slide-3.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+
+        </div>
+    </header>
     <div class="main-page">
         <div class="row">
             <div class="col-lg-16">

@@ -83,7 +83,7 @@
             position: absolute;
             min-height: 100px;
             width: 700px;
-            background-color: yellow;
+            background-color: lightgray;
             top: 50px;
             left: 20px;
             display: none; }
@@ -92,14 +92,43 @@
               width: 150px; }
               .navigation .wrap-nav ul li .menu li a {
                 font-size: 20px;
-                color: red;
+                color: black;
                 text-decoration: underline; }
               .navigation .wrap-nav ul li .menu li ul li {
                 display: block; }
                 .navigation .wrap-nav ul li .menu li ul li a {
                   text-decoration: none;
                   font-size: 16px;
-                  color: black; }
+                  color: gray; }
+
+  #header {
+    height: 500px;
+    margin-bottom: 50px; }
+    #header .wrap-header {
+      width: 1200px;
+      margin: 0 auto;
+      overflow-x: auto; }
+      #header .wrap-header ul {
+        list-style: none;
+        width: 5000px; }
+        #header .wrap-header ul li {
+          display: inline-block; }
+          #header .wrap-header ul li .item .detail {
+            width: 50%;
+            float: left; }
+            #header .wrap-header ul li .item .detail .head {
+              font-size: 30px;
+              color: orange;
+              margin-top: 50px;
+              margin-left: 50px; }
+            #header .wrap-header ul li .item .detail .title {
+              font-size: 20px;
+              margin-left: 50px; }
+            #header .wrap-header ul li .item .detail .paraph {
+              margin-left: 50px; }
+          #header .wrap-header ul li .item .image {
+            width: 50%;
+            float: right; }
 
   .main-page {
     width: 1200px;
