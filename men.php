@@ -14,10 +14,12 @@
         <div class="col-lg-16">
             <nav class="navigation">
                 <div class="wrap-nav">
-                    <ul>
-                        <li>Home</li>
+                <ul>
                         <li>
-                            <a href="">Men</a>
+                            <a href="index.php">Home</a>
+                        </li>
+                        <li>
+                            <a href="men.php">Men</a>
                             <ul class="menu">
                                 <li>
                                     <a href="">Ao nam</a>
@@ -50,7 +52,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="">Women</a>
+                            <a href="women.php">Women</a>
                             <ul class="menu">
                                 <li>
                                     <a href="">Ao nam</a>
@@ -83,10 +85,10 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="">New Products</a>
+                            <a href="features.php">Features Items</a>
                         </li>
                         <li>
-                            <a href="">Hot Sales</a>
+                            <a href="bestseller.php">Best Seller</a>
                         </li>
                     </ul>
                 </div>
