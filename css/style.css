@@ -138,7 +138,7 @@
       clear: both;
       display: block; }
     .main-page .box-category {
-      border: 1px solid gray;
+      border: 1px solid lightgray;
       margin: 20px 0; }
       .main-page .box-category .title-category {
         text-align: center; }
@@ -173,7 +173,7 @@
         clear: both;
         display: block; }
     .main-page .box-category-special {
-      border: 1px solid gray; }
+      border: 1px solid lightgray; }
       .main-page .box-category-special .title-category {
         text-align: center; }
       .main-page .box-category-special .content {
