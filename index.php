@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -107,8 +109,9 @@
         </div>
     </div>
     <header id="header">
-        <div class="wrap-header">
-            <ul>
+        <div id="image-box" class="wrap-header">
+
+            <ul class="list-image">
                 <li>
                     <div class="item">
                         <div class="detail">

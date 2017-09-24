@@ -115,15 +115,17 @@
         height: 500px;
         margin-bottom: 50px;
         .wrap-header {
+            position: relative;
             width: 1200px;
             margin: 0 auto;
-            overflow-x: auto;
+            overflow-x: hidden;
             ul {
                 list-style: none;
-                width: 5000px;
+                width: 4000px;
                 li {
-                    display: inline-block;
+                    float: left;
                     .item {
+                        width: 1200px;
                         .detail {
                             width: 50%;
                             float: left;
