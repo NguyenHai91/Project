@@ -241,16 +241,33 @@
   .footer {
     height: 200px;
     background-color: lightgray; }
-    .footer .left-box {
-      float: left;
-      display: flex;
-      width: 70%; }
-      .footer .left-box .box {
+    .footer .wrap-footer {
+      width: 1200px;
+      margin: 0 auto; }
+      .footer .wrap-footer .left-box {
+        float: left;
+        display: flex;
+        width: 70%; }
+        .footer .wrap-footer .left-box .box {
+          width: 30%; }
+          .footer .wrap-footer .left-box .box ul {
+            list-style: none; }
+            .footer .wrap-footer .left-box .box ul li {
+              margin-top: 5px; }
+              .footer .wrap-footer .left-box .box ul li a {
+                text-decoration: none;
+                color: gray; }
+      .footer .wrap-footer .right-box {
+        float: right;
         width: 30%; }
-        .footer .left-box .box a {
-          display: block; }
-    .footer .right-box {
-      float: right;
-      width: 30%; } }
+      .footer .wrap-footer:after {
+        content: "";
+        clear: both;
+        display: block; }
+    .footer .copyright {
+      height: 40px;
+      text-align: center;
+      margin-top: 30px;
+      background-color: gray; } }
 
 /*# sourceMappingURL=style.css.map */

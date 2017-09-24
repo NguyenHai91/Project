@@ -10,11 +10,12 @@
 </head>
 
 <body>
+
     <div class="row">
         <div class="col-lg-16">
             <nav class="navigation">
                 <div class="wrap-nav">
-                <ul>
+                    <ul>
                         <li>
                             <a href="index.php">Home</a>
                         </li>
@@ -91,12 +92,64 @@
                             <a href="bestseller.php">Best Seller</a>
                         </li>
                     </ul>
+                    <div class="search-box">
+                        <input type="text" >
+                        <button class="">Search</button>
+                    </div>
+                    <div class="account">
+                        <a href="">Cart</a>
+                        <a href="">Login</a>
+                        <a href="">Register</a>
+                    </div>
                 </div>
 
             </nav>
         </div>
     </div>
+    <header id="header">
+        <div class="wrap-header">
+            <ul>
+                <li>
+                    <div class="item">
+                        <div class="detail">
+                            <p class="head">E-SHOPPER</p>
+                            <p class="title">Free Ecommerce Template</p>
+                            <p class="paraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/slide-1.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <div class="detail">
+                            <p class="head">E-SHOPPER</p>
+                            <p class="title">Free Ecommerce Template</p>
+                            <p class="paraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/slide-2.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <div class="detail">
+                            <p class="head">E-SHOPPER</p>
+                            <p class="title">Free Ecommerce Template</p>
+                            <p class="paraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/slide-3.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
 
+        </div>
+    </header>
     <div class="main-page">
         <div class="row">
             <div class="col-lg-16">
@@ -310,7 +363,216 @@
                         </ul>
                     </div>
                 </section>
-
+                <section id="women" class="box-category">
+                    <div class="title-category">
+                        <h2 class="">For Women</h2>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-5.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-6.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-7.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="hot-sale" class="box-category-special">
+                    <div class="title-category">
+                        <h2 class="">Hot Sale</h2>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-5.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-6.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-7.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <div class="image">
+                                        <a href=""><img src="images/pro-4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="detail">
+                                        <span>$200</span>
+                                        <button>Buy Now</button>
+                                        <button>Add Cart</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
     </div>

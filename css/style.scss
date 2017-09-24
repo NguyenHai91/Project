@@ -259,20 +259,42 @@
     .footer {
         height: 200px;
         background-color: lightgray;
-        .left-box {
-            float: left;
-            display: flex;
-            width: 70%;
-            .box {
-                width: 30%;
-                a {
-                    display: block;
+        .wrap-footer {
+            width: 1200px;
+            margin: 0 auto;
+            .left-box {
+                float: left;
+                display: flex;
+                width: 70%;
+                .box {
+                    width: 30%;
+                    ul {
+                        list-style: none;
+                        li {
+                            margin-top: 5px;
+                            a {
+                                text-decoration: none;
+                                color: gray;
+                            }
+                        }
+                    }
                 }
             }
+            .right-box {
+                float: right;
+                width: 30%;
+            }
+            &:after {
+                content: "";
+                clear: both;
+                display: block;
+            }
         }
-        .right-box {
-            float: right;
-            width: 30%;
+        .copyright {
+            height: 40px;
+            text-align: center;
+            margin-top: 30px;
+            background-color: gray;
         }
     }
 }
