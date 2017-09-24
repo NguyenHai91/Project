@@ -99,7 +99,7 @@
                     <div class="account">
                         <a href="">Cart</a>
                         <a href="">Login</a>
-                        <a href="">Sign Up</a>
+                        <a href="">Register</a>
                     </div>
                 </div>
 

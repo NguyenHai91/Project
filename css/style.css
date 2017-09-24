@@ -71,7 +71,8 @@
       .navigation .wrap-nav ul {
         position: relative;
         float: left;
-        list-style: none; }
+        list-style: none;
+        margin-top: 10px; }
         .navigation .wrap-nav ul li {
           display: inline;
           font-size: 22px;
@@ -103,17 +104,26 @@
                   text-decoration: none;
                   font-size: 16px;
                   color: gray; }
-      .navigation .wrap-nav .search-box input {
-        width: 200px;
-        height: 30px;
-        font-size: 20px;
-        margin: 0px; }
-      .navigation .wrap-nav .search-box button {
-        width: 70px;
-        height: 30px;
-        margin: 0px; }
+      .navigation .wrap-nav .search-box {
+        float: left;
+        margin-top: 10px; }
+        .navigation .wrap-nav .search-box input {
+          width: 300px;
+          height: 30px;
+          font-size: 20px;
+          margin-top: 0px;
+          float: left;
+          border-radius: 3px 0 0 3px;
+          border: none; }
+        .navigation .wrap-nav .search-box button {
+          width: 70px;
+          height: 30px;
+          margin-top: 0px;
+          border-radius: 0px 3px 3px 0;
+          border: none; }
       .navigation .wrap-nav .account {
-        float: right; }
+        float: right;
+        margin-top: 25px; }
         .navigation .wrap-nav .account a {
           color: white;
           margin-left: 10px; }
