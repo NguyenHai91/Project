@@ -64,7 +64,7 @@
 
   .navigation {
     height: 50px;
-    background-color: black; }
+    background-color: lightgray; }
     .navigation .wrap-nav {
       width: 1200px;
       margin: 0 auto; }
@@ -76,11 +76,10 @@
         .navigation .wrap-nav ul li {
           display: inline;
           font-size: 22px;
-          margin-right: 20px;
-          color: gray; }
+          margin-right: 20px; }
           .navigation .wrap-nav ul li a {
             text-decoration: none;
-            color: gray; }
+            color: black; }
           .navigation .wrap-nav ul li:hover .menu {
             display: block; }
           .navigation .wrap-nav ul li .menu {
@@ -125,7 +124,7 @@
         float: right;
         margin-top: 25px; }
         .navigation .wrap-nav .account a {
-          color: white;
+          color: black;
           margin-left: 10px; }
 
   #header {
