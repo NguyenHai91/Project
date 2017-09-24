@@ -86,7 +86,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="features.php">Features Items</a>
+                            <a href="features.php" class="active">Features Items</a>
                         </li>
                         <li>
                             <a href="bestseller.php">Best Seller</a>

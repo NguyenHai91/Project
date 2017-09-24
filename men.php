@@ -20,7 +20,7 @@
                             <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="men.php">Men</a>
+                            <a href="men.php" class="active">Men</a>
                             <ul class="menu">
                                 <li>
                                     <a href="">Ao nam</a>

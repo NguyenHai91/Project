@@ -33,12 +33,20 @@
                 list-style: none;
                 margin-top: 10px;
                 li {
+                    a.active {
+                        border-radius: 2px;
+                    }
+                }
+                li {
                     display: inline;
                     font-size: 22px;
                     margin-right: 20px;
                     a {
                         text-decoration: none;
                         color: black;
+                    }
+                    a.active {
+                        color: orange;
                     }
                     &:hover .menu {
                         display: block;

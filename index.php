@@ -16,8 +16,8 @@
             <nav class="navigation">
                 <div class="wrap-nav">
                     <ul>
-                        <li>
-                            <a href="index.php">Home</a>
+                        <li >
+                            <a href="index.php" class="active">Home</a>
                         </li>
                         <li>
                             <a href="men.php">Men</a>

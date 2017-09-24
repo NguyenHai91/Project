@@ -73,6 +73,8 @@
         float: left;
         list-style: none;
         margin-top: 10px; }
+        .navigation .wrap-nav ul li a.active {
+          border-radius: 2px; }
         .navigation .wrap-nav ul li {
           display: inline;
           font-size: 22px;
@@ -80,6 +82,8 @@
           .navigation .wrap-nav ul li a {
             text-decoration: none;
             color: black; }
+          .navigation .wrap-nav ul li a.active {
+            color: orange; }
           .navigation .wrap-nav ul li:hover .menu {
             display: block; }
           .navigation .wrap-nav ul li .menu {

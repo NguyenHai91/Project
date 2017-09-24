@@ -89,7 +89,7 @@
                             <a href="features.php">Features Items</a>
                         </li>
                         <li>
-                            <a href="bestseller.php">Best Seller</a>
+                            <a href="bestseller.php" class="active">Best Seller</a>
                         </li>
                     </ul>
                     <div class="search-box">
