@@ -69,7 +69,6 @@
       width: 1200px;
       margin: 0 auto; }
       .navigation .wrap-nav ul {
-        position: relative;
         float: left;
         list-style: none;
         margin-top: 10px; }
@@ -129,13 +128,13 @@
         margin-top: 25px; }
         .navigation .wrap-nav .account a {
           color: black;
-          margin-left: 10px; }
+          margin-left: 10px;
+          text-decoration: none; }
 
   #header {
     height: 500px;
     margin-bottom: 50px; }
     #header .wrap-header {
-      position: relative;
       width: 1200px;
       margin: 0 auto;
       overflow-x: hidden; }

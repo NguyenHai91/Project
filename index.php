@@ -96,12 +96,12 @@
                     </ul>
                     <div class="search-box">
                         <input type="text" >
-                        <button class="">Search</button>
+                        <button class=""><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
                     </div>
                     <div class="account">
-                        <a href="">Cart</a>
-                        <a href="">Login</a>
-                        <a href="">Register</a>
+                        <a href="" class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Cart</a>
+                        <a href=""><i class="fa fa-unlock-alt" aria-hidden="true"></i>  Login</a>
+                        <a href=""><i class="fa fa-lock" aria-hidden="true"></i>  Register</a>
                     </div>
                 </div>
 
