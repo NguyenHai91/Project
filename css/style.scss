@@ -33,7 +33,7 @@
                 margin-top: 10px;
                 li {
                     display: inline;
-                    font-size: 22px;
+                    font-size: 20px;
                     margin-right: 5px;
                     padding: 5px;
                     &:hover {
@@ -131,10 +131,10 @@
             position: relative;
             .button {
                 position: absolute;
+                top: 200px;
                 z-index: 102;
                 span {
                     font-size: 60px;
-                    top: 200px;
                     color: lightgray;
                 }
                 &:hover {
@@ -293,6 +293,105 @@
                 content: "";
                 clear: both;
                 display: block;
+            }
+        }
+        .detail-product {
+            .left {
+                width: 50%;
+                float: left;
+                .main-image {
+                    margin-right: 20px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .wrap-list {
+                    ul {
+                        list-style: none;
+                        li {
+                            width: 70px;
+                            float: left;
+                            margin-right: 10px;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 50%;
+                float: right;
+                .name-product {
+                    font-size: 20px;
+                    margin: 20px 0;
+                }
+                .prize {
+                    font-size: 30px;
+                    color: orange;
+                }
+                .quantity {
+                    margin: 20px 0;
+                    float: left;
+                    input {
+                        width: 50px;
+                        height: 30px;
+                        text-align: right;
+                        font-size: 18px;
+                        margin-left: -4px;
+                    }
+                    button {
+                        width: 30px;
+                        height: 30px;
+                        font-size: 18px;
+                    }
+                    button.plus {
+                        margin-left: -4px;
+                        margin-right: 20px;
+                    }
+                }
+                .color {
+                    margin: 20px 0;
+                    button {
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .red {
+                        background-color: red;
+                    }
+                    .green {
+                        background-color: green;
+                    }
+                    .blue {
+                        background-color: blue;
+                    }
+                    .orange {
+                        background-color: orange;
+                    }
+                    .violet {
+                        background-color: violet;
+                    }
+                }
+                button {
+                    width: 150px;
+                    height: 40px;
+                    border: none;
+                    font-size: 18px;
+                    background-color: orange;
+                }
+            }
+        }
+        .vertical {
+            height: 750px;
+            .content {
+                ul {
+                    li {
+                        display: block !important;
+                        .cart {
+                            display: block !important;
+                        }
+                    }
+                }
             }
         }
     }

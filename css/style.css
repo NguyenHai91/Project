@@ -74,7 +74,7 @@
         margin-top: 10px; }
         .navigation .wrap-nav ul li {
           display: inline;
-          font-size: 22px;
+          font-size: 20px;
           margin-right: 5px;
           padding: 5px; }
           .navigation .wrap-nav ul li:hover a {
@@ -147,10 +147,10 @@
       position: relative; }
       #header .wrap-header .button {
         position: absolute;
+        top: 200px;
         z-index: 102; }
         #header .wrap-header .button span {
           font-size: 60px;
-          top: 200px;
           color: lightgray; }
         #header .wrap-header .button:hover {
           cursor: pointer; }
@@ -264,6 +264,73 @@
         content: "";
         clear: both;
         display: block; }
+    .main-page .detail-product .left {
+      width: 50%;
+      float: left; }
+      .main-page .detail-product .left .main-image {
+        margin-right: 20px; }
+        .main-page .detail-product .left .main-image img {
+          width: 100%; }
+      .main-page .detail-product .left .wrap-list ul {
+        list-style: none; }
+        .main-page .detail-product .left .wrap-list ul li {
+          width: 70px;
+          float: left;
+          margin-right: 10px; }
+          .main-page .detail-product .left .wrap-list ul li img {
+            width: 100%; }
+    .main-page .detail-product .right {
+      width: 50%;
+      float: right; }
+      .main-page .detail-product .right .name-product {
+        font-size: 20px;
+        margin: 20px 0; }
+      .main-page .detail-product .right .prize {
+        font-size: 30px;
+        color: orange; }
+      .main-page .detail-product .right .quantity {
+        margin: 20px 0;
+        float: left; }
+        .main-page .detail-product .right .quantity input {
+          width: 50px;
+          height: 30px;
+          text-align: right;
+          font-size: 18px;
+          margin-left: -4px; }
+        .main-page .detail-product .right .quantity button {
+          width: 30px;
+          height: 30px;
+          font-size: 18px; }
+        .main-page .detail-product .right .quantity button.plus {
+          margin-left: -4px;
+          margin-right: 20px; }
+      .main-page .detail-product .right .color {
+        margin: 20px 0; }
+        .main-page .detail-product .right .color button {
+          width: 30px;
+          height: 30px; }
+        .main-page .detail-product .right .color .red {
+          background-color: red; }
+        .main-page .detail-product .right .color .green {
+          background-color: green; }
+        .main-page .detail-product .right .color .blue {
+          background-color: blue; }
+        .main-page .detail-product .right .color .orange {
+          background-color: orange; }
+        .main-page .detail-product .right .color .violet {
+          background-color: violet; }
+      .main-page .detail-product .right button {
+        width: 150px;
+        height: 40px;
+        border: none;
+        font-size: 18px;
+        background-color: orange; }
+    .main-page .vertical {
+      height: 750px; }
+      .main-page .vertical .content ul li {
+        display: block !important; }
+        .main-page .vertical .content ul li .cart {
+          display: block !important; }
 
   .footer {
     height: 200px;
