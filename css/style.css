@@ -71,11 +71,12 @@
       .navigation .wrap-nav ul {
         float: left;
         list-style: none;
-        margin-top: 15px; }
+        margin-top: 10px; }
         .navigation .wrap-nav ul li {
           display: inline;
           font-size: 22px;
-          margin-right: 20px; }
+          margin-right: 5px;
+          padding: 5px; }
           .navigation .wrap-nav ul li:hover a {
             color: orange; }
           .navigation .wrap-nav ul li a {
@@ -89,10 +90,12 @@
             position: absolute;
             width: 700px;
             background-color: lightgray;
-            top: 36px;
+            top: 40px;
             left: 100px;
             display: none;
-            z-index: 101; }
+            z-index: 101;
+            padding-top: 20px;
+            padding-left: 20px; }
             .navigation .wrap-nav ul li .menu:hover {
               display: block; }
             .navigation .wrap-nav ul li .menu li {
@@ -128,7 +131,7 @@
           border: none; }
       .navigation .wrap-nav .account {
         float: right;
-        margin-top: 20px; }
+        margin-top: 17px; }
         .navigation .wrap-nav .account a {
           color: black;
           margin-left: 10px;
@@ -140,7 +143,23 @@
     #header .wrap-header {
       width: 1200px;
       margin: 0 auto;
-      overflow-x: hidden; }
+      overflow-x: hidden;
+      position: relative; }
+      #header .wrap-header .button {
+        position: absolute;
+        z-index: 102; }
+        #header .wrap-header .button span {
+          font-size: 60px;
+          top: 200px;
+          color: lightgray; }
+        #header .wrap-header .button:hover {
+          cursor: pointer; }
+          #header .wrap-header .button:hover span {
+            color: orange; }
+      #header .wrap-header .btn-prev {
+        left: 0px; }
+      #header .wrap-header .btn-next {
+        right: 0px; }
       #header .wrap-header ul {
         list-style: none;
         width: 4000px; }
@@ -216,7 +235,7 @@
         overflow-x: auto; }
         .main-page .box-category-special .content ul {
           list-style: none;
-          width: 3000px; }
+          width: 5000px; }
           .main-page .box-category-special .content ul li .cart {
             width: 180px;
             height: 320px;
