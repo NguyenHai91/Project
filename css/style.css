@@ -232,7 +232,7 @@
         text-align: center; }
       .main-page .box-category-special .content {
         height: 360px;
-        overflow-x: auto; }
+        overflow-x: hidden; }
         .main-page .box-category-special .content ul {
           list-style: none;
           width: 5000px; }
